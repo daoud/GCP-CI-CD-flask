@@ -1,5 +1,8 @@
 from urllib.parse import quote
 from google.cloud import bigquery
+from google.cloud import bigquery
+
+#big_query_client = bigquery.Client()  # This might be the object you're using
 from flask import Flask
 from flask import request
 import os 
