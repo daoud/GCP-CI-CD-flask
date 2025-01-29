@@ -6,7 +6,6 @@ from google.cloud import bigquery
 from flask import Flask
 from flask import request
 import os 
-import os
 
 
 app = Flask(__name__)
